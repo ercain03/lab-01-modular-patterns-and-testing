@@ -8,3 +8,4 @@ describe('what the cow says', function(){
     assert.deepEqual(cowsay('tre'), cowsay('tre'));
   });
 });
+  
