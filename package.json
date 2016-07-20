@@ -1,8 +1,8 @@
 {
-  "name": "lab-01-modular-patterns-and-testing",
+  "name": "lab-tre",
   "version": "1.0.0",
   "description": "[![Build Status](https://travis-ci.org/codefellows-sea-js-401d8-assignments/lab-01-modular-patterns-and-testing.svg?branch=master)](https://travis-ci.org/codefellows-sea-js-401d8-assignments/lab-01-modular-patterns-and-testing)",
-  "main": "index.js",
+  "main": "cowsay.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/ercain03/lab-01-modular-patterns-and-testing#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.5.3"
   }
 }

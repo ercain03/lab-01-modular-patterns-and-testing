@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 const assert = require('assert');
-const cowsay = require('../lib/cowsay');
+const cowsay = require('./lib/cowsay');
 
 describe('what the cow says', function(){
   it('should say what the user inputed', function(){
@@ -8,4 +8,3 @@ describe('what the cow says', function(){
     assert.deepEqual(cowsay('tre'), cowsay('tre'));
   });
 });
-  
