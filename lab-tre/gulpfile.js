@@ -47,6 +47,11 @@ gulp.task('files:watch', function(){
   gulp.watch('./lab-tre/**/**/**', ['default']);
 });
 
+gulp.task('mocha', function() {
+  return gulp.src(testFiles)
+  .pipe(mocha({reporter: 'spec'}));
+});
+
 gulp.task('default', ['lint:app'], () => {
   return gulp.src(testFiles)
   .pipe(mocha({reporter: 'nyan'}));
