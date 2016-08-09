@@ -2,16 +2,17 @@
   "name": "lab-tre",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
     "chai": "^3.5.0",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
     "mocha": "^2.5.3"
   },
   "scripts": {
